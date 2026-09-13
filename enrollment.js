@@ -1,3 +1,8 @@
+/**
+ * Author: Brent M Quipanes
+ * created date: 2026-14-09
+ * 
+ */
 // enrollment.js
 // This program calculates the total tuition fee for a student based on the number of units, tuition per unit, VAT, and miscellaneous fees.
 // Constants are used to store the tuition per unit, number of units, VAT rate, and miscellaneous fees.
