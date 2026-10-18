@@ -15,6 +15,9 @@ var account = {
     occupation: "Student",
 };
 
+
+let nickname = '';
+const score = 78;
 // Function to validate the user's input
 function validate(data) {
     const validOccupations = [
@@ -74,30 +77,16 @@ const emptyAccount = {
 console.log("Valid Account Errors:", validate(validAccount));     // []
 console.log("Invalid Account Errors:", validate(invalidAccount)); // 4 errors
 console.log("Empty Account Errors:", validate(emptyAccount));     // 5 errors
-
-
 console.log(5 == '5');            // true  - types converted
 console.log(5 === '5');           // false - types differ
 console.log(null == undefined);   // true
 console.log(null === undefined);  // false
 console.log(NaN === NaN);         // false - always
- 
 console.log(Boolean(''));    // false
 console.log(Boolean('0'));   // true   <-- surprising
-
-
 console.log(Boolean([]));    // true   <-- surprising
- 
-let nickname = '';
 console.log(nickname || 'Ruben Quipanes');  // 'Guest' - any falsy triggers ||
 console.log(nickname ?? 'Ruben Quipanes');  // ''      - only null/undefined
- 
-const score = 78;
-console.log(score >= 75 ? 'PASSED' : 'FAILED');   // PASSED
-
-
-
-
 
 
 
